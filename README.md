@@ -9,6 +9,7 @@
   * [Directory Tree](#directory-tree)
   * [Bug / Feature Request](#bug---feature-request)
   * [Future scope of project](#future-scope)
+  * [Git lfs upload of tuned hyper-parameter model](#git-lfs-upload-of-tuned-hyperparameter-model)
 
 
 ## Demo
