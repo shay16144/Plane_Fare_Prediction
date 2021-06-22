@@ -13,7 +13,7 @@ This could not be a contribution to the original project as github does not allo
   * [Directory Tree](#directory-tree)
   * [Bug / Feature Request](#bug---feature-request)
   * [Future scope of project](#future-scope)
-  * [Git lfs upload of tuned hyper-parameter model](#git-lfs-upload-of-tuned-hyperparameter-model)
+  * [Git lfs upload of tuned hyper-parameter model](#git-lfs)
 
 
 ## Demo
@@ -72,3 +72,9 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 * Use multiple Algorithms
 * Optimize Flask app.py
 * Front-End 
+
+## Git LFS
+
+GIT-LFS is required to push the tuned hyper-parameter model to the master repo as github does not allow upload of files larger than 100MB. The process of git-lfs installation and execution can be seen here. The heroku app also needs some buildpacks and convig variables added for compatibility with git-lfs.
+
+
