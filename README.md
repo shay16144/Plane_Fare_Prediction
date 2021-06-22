@@ -71,6 +71,10 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 
 ## Git LFS
 
-GIT-LFS is required to push the tuned hyper-parameter model to the master repo as github does not allow upload of files larger than 100MB. The process of git-lfs installation and execution can be seen here. The heroku app also needs some buildpacks and convig variables added for compatibility with git-lfs.
+GIT-LFS is required to push the tuned hyper-parameter model to the master repo as github does not allow upload of files larger than 100MB.
+Download git-lfs using whatever package management tool you prefer.
+```bash
+yum install git-lfs
+```
 
 
