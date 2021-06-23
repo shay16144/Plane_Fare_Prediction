@@ -16,7 +16,7 @@ This could not be a contribution to the original project as github does not allo
 
 
 ## Demo
-Link: [https://flight-price-prediction-api.herokuapp.com/](https://flight-price-prediction-api.herokuapp.com/)
+Link: [https://flight-fare-predictor-api.herokuapp.com/](https://plane-fare-predictor.herokuapp.com/)
 
 [![](https://i.imgur.com/R1g2wvC.png)](https://flight-price-prediction-api.herokuapp.com/)
 
@@ -72,7 +72,7 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 ## Git LFS
 
 GIT-LFS is required to push the tuned hyper-parameter model to the master repo as github does not allow upload of files larger than 100MB.
-For a step by step guide on how to install and push your large files to github click [here](https://git-lfs.github.com/).
+For a step by step guide on how to install git-lfs and push your large files to github click [here](https://git-lfs.github.com/).
  
  For deployment in Heroku a buildpack is needed for git-lfs files. The package with instructions can be found [here](https://elements.heroku.com/buildpacks/teawkung/heroku-buildpack-git-lfs), or this can also be done manually in Heroku by going to your app settings > Buildpacks and adding the clone of the buildpack git repository.
  There is also a requirement to add [convig variables](https://stackoverflow.com/questions/62532673/how-to-deploy-git-lfs-on-heroku) which can be added manually by going to app > settings > convig var. You first need to set the first key to 'BL_BUILDPACK_GIT_LFS_REPO' and value to the clone URL of your repository in which the lfs file is situated.For the next config var, an SSH key should be generated and added as the value to the key 'BL_BUILDPACK_GIT_LFS_SSH_PRIVATE_KEY'. Here is some advice on [generating SSH keys](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
