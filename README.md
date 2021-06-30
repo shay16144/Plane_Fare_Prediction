@@ -1,7 +1,7 @@
 # Flight Fare Prediction: 
 
 ## Edit
-This is a extension of the project https://github.com/Mandal-21/Flight-Price-Prediction.git where I have pushed a new fligh_rf.pkl(101MB), which a tuned hyper-parameter model, to the main repository using git-lfs (Large File Storage) to give a more accurate predicion of plane fares. I have created a guide detailing the steps of this process with regards to upload in github and deployment in heroku.
+This is a extension of the project https://github.com/Mandal-21/Flight-Price-Prediction.git where I have pushed a new fligh_rf.pkl(101MB), which is a tuned hyper-parameter model, to the main repository using git-lfs (Large File Storage) to give a more accurate predicion of plane fares. I have created a guide detailing the steps of this process with regards to upload in github and deployment in heroku.
 This could not be a contribution to the original project as github does not allow git-lfs uploads to forked repositories where the main repository does not contain a git-lfs uploaded file.
 
 ## Table of Content
